@@ -17,5 +17,8 @@ p1{
     font-family: 'Nothing You Could Do', cursive;
 }
 main{
-    align-items: center;
+    align-items: center
+}
+body{
+    font-family: 'Nothing You Could Do' cursive;
 }
