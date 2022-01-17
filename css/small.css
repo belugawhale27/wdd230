@@ -1,0 +1,42 @@
+header, footer{
+    max-height: 10%;
+    max-width: 100%;
+    border: 10%;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 10%;
+    margin: 20%;
+    background-color: rgb(156, 156, 180);
+    border-radius: 10px; 
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: 'Nothing You Could Do', cursive;
+    letter-spacing: 2px;
+}
+.p1{
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+}
+img{
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    max-width: 100%;
+    display: block;
+    float: none;
+}
+h1{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 1rem;
+}
+main{
+    align-items: center
+}
+body{
+    font-family: 'Nothing You Could Do' cursive;
+    align-items: center;
+}
