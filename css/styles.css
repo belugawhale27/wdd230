@@ -1,0 +1,22 @@
+header, footer{
+    display: block;
+    color: white;
+    width: 50%;
+    grid-template-rows: 60px 160px 60px;
+    grid-template-columns: 150px 100px 80px 100px;
+    border: 100px;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(191, 191, 223);
+    border-radius: 10px 10px 10px 10px; 
+}
+p1{
+    grid-row: 2;
+    grid-column-start: 3;
+    color: white;
+    font-size: 40px;
+}
+main{
+    align-items: center;
+}
