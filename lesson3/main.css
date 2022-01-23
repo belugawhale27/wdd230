@@ -1,0 +1,38 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --color1: #d55555; /* Indian Red*/
+    --color2: #d4eaed; /*Light Cyan, a very light blue*/
+    --color3: #a2dae2; /*Blizzard Blue, a sky blue*/ 
+    --color4:#785338; /* Coffee, Brown*/ 
+    --color5: #003952; /*Indigo Dye, a navy blue*/
+    --color6: #f4f6f5; /*Cultured, A very pale blue, almost an off white*/
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Helvetica", "Verdana", sans-serif;
+    --paragraph-font: "Garamond", "Georgia", serif;
+  }
+  html {
+    background-color: var(--color3);
+  }
+  body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #d4eaed;
+    padding: 1em;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    color: #003952;
+  }
+  header, footer {
+    display: flex;
+    padding: 1em;
+    text-align: center;
+    color: #a2dae2;
+    background-color: #003952;
+  }
+  p {
+    font-family: sans-serif;
+    color: #d4eaed;
+    padding: 1rem;
+  }
