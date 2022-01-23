@@ -92,16 +92,23 @@ Fonts are separated by a | */
   }
   
   nav {
-    background-color: var(--nav-background-color);
-    line-height: 3em;
+    background-color:#003952;
+    color: #d4eaed;
     text-align: center;
-    font-size: 1.2em;
-  }
-  nav > ul {
-    list-style-type: none;
     display: flex;
-  
+    font-size: 1.2rem;
   }
+  nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, yellow, transparent) top /
+		var(--d, 0) 10px no-repeat;
+	transition: 0.5s;
+}
   nav a {
     padding:1em;
     min-width: 70px;
