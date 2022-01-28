@@ -19,4 +19,21 @@ p1{
 }
 main{
     align-items: center;
+    padding: 10px;
+}
+body{
+    padding: 10px;
+}
+img{
+    border-radius: 50px;
+    float: left;
+    padding: 15px;
+}
+.name{
+    display: flex;
+    flex: wrap;
+    align-content: space-evenly;
+    justify-content: center;
+    text-align: center;
+
 }
