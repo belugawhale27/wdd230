@@ -1,10 +1,124 @@
+/*Color Palette:
+ --color#: #hexcode; Color Name, descriptive color info
+ --color1: #d55555; Indian Red
+ --color2: #d4eaed; Light Cyan, a very light blue
+ --color3: #a2dae2; Blizzard Blue, a sky blue 
+ --color4:#785338; Coffee, Brown
+ --color5: #003952; Indigo Dye, a navy blue
+ --color6: #f4f6f5; Cultured, A very pale blue, almost an off white
+*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border: 50px #f4f6f5;
+    background-color: #d4eaed;
+    width: 80%;
+}
+.topdate {
+    text-align: center;
+    background: #f4f6f5;
+    padding: 10px;
+}
 body{
+    background-color: #f4f6f5;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 2em;
     font-family: hebrew;
-    color: navy;
+    color: #003952;
+    width: 80%;
+    text-align: center;
+}
+main{
+    border: #a2dae2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.maingrid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+#hero {
+    grid-column:1/3;
+    grid-row:1/2;
+}
+
+#event {
+    grid-column: 2/2;
+    grid-row: 5/6;
+}
+#weather {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+#news {
+    grid-column: 2/3;
+    grid-row: 4/6;
+}
+#spotlights {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    display: flex;
+    flex-direction: row;
+}
+#join {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    display: inline;
+}
+.navigation a {
+    display: block;
+    padding: o.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: #785338;
+    font-weight: 700;
+}
+
+
+#ham span:nth-child(1) {display:block;}
+#ham span:nth-child(2) {display:none;}
+
+#ham.open span:nth-child(1) {display:none;}
+#ham.open span:nth-child(2) {display:block;}
+
+
+.navigation{
+    display: flex;
+}
+.navigation li {
+    display: block;
+    flex: 1 1 auto;
+}
+.navigation a {
+    text-align: center;
+}
+
+.social{
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #d4eaed;
+    width: 100%
+}
+#chamber{
+    justify-items: left;
+}
+#address {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+#contact {
+    justify-self: end;
+    flex-grow: 1;
+    display: block;
+}
+#map {
+    justify-content: right;
 }
