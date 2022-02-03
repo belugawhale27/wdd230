@@ -13,13 +13,16 @@
     <link rel="preconnect" href="https://fonts.gstatsic.com" crossorigin>
     <link href="#" >
     <!--Don't forget to add a goole font link above!-->
+    <link rel="shortcut icon" href="favicon.ico">
     <script defer src="js/date.js"></script>
     <title>El Cajon Chamber of Commerce</title>
 </head>
 <body>
 <header>
     <div clas="header">
-        <img class="logo" src="images/chamberlogo.png" alt="El Cajon Chamber of Commerce Logo" width=150px>
+        <picture>
+        <img class="logo" src="images/chamberlogo2.png" alt="El Cajon Chamber of Commerce Logo" width=150>
+        </picture>
             <h1>El Cajon</h1>
                 <h2>Chamber of Commerce</h2>
     </div>
@@ -48,34 +51,37 @@
     <div class="maingrid">
     <section class="hero">
         <p>Hero with site name and call to action</p></section>
-        <img src="#" alt="Hero Image">
+      <!--  <img src="#" alt="Hero Image" height=100> -->
     <section class="event">Events</section>
     <section class="weather">Weather</section>
     <section class="join">Join</section>
     <section class="news">News Release</section>
     <section class="spotlights">
-        <div>Spotlight 1</div>
-        <div>Spotlight 2</div>
+        <div class="spotlight1">Spotlight 1</div>
+        <div class="spotlight2">Spotlight 2</div>
+        <div class="spotlight3">Spotlight 3</div>
     </section>
     </div>
 </main>
 <footer>
-    <img src="images/chamberlogo.png" alt="El Cajon Chamber of Commerce Logo" width=75px>
-    <p class="chamber">El Cajon Chamber of Commerce</p>
-    <p></p>
-    <p class="address">1234 Main St</p>
-    <p class= "address">El Cajon, CA 92021</p>
-    <p></p>
-    <p class="contact">chambers@elcajoncc.org</p>
-    <p></p>
-    <p class="contact">(858) 211-1234</p>
-    <p></p>
-    <p class="map">
+    <div class="logo-box">
+    <picture>
+    <img  class="logo" src="images/chamberlogo2.png" alt="El Cajon Chamber of Commerce Logo" height=200>
+    </picture>
+    </div>
+    <div class="chamber address contact-box">
+        <h3>El Cajon Chamber of Commerce</h3>
+        <p>1234 Main St</p>
+        <p>El Cajon, CA 92021</p>
+        <p>chambers@elcajoncc.org</p>
+        <p>(858) 211-1234</p>
+    </div>
+    <div class="map timestamp location-box">
         <a href="https://goo.gl/maps/MUKFP74mPiWQeDdk8" alt="Map of El Cajon">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107269.37459666321!2d-116.9489346583621!3d32.84080439439587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d95f39e20553a9%3A0xc24c26cde01f35b4!2sEl%20Cajon%2C%20CA%2092021!5e0!3m2!1sen!2sus!4v1643520354892!5m2!1sen!2sus" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe></a></p>
-    <p id="currentyear">&copy</p>
-    <p id="lastmod"></p>
-  </p>
+        <p id="currentyear">&copy</p>
+        <p id="lastmod"></p>
+    </div>
 </footer>
 </body>
 </html>
