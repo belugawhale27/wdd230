@@ -1,38 +1,66 @@
 :root {
     /* change the values below to your colors from your palette */
-    --color1: #d55555; /* Indian Red*/
-    --color2: #d4eaed; /*Light Cyan, a very light blue*/
-    --color3: #a2dae2; /*Blizzard Blue, a sky blue*/ 
-    --color4:#785338; /* Coffee, Brown*/ 
-    --color5: #003952; /*Indigo Dye, a navy blue*/
-    --color6: #f4f6f5; /*Cultured, A very pale blue, almost an off white*/
+    --red: #d55555; /* Indian Red*/
+    --verylightblue: #d4eaed; /*Light Cyan, a very light blue*/
+    --skyblue: #a2dae2; /*Blizzard Blue, a sky blue*/ 
+    --brown:#785338; /* Coffee, Brown*/ 
+    --navyblue: #003952; /*Indigo Dye, a navy blue*/
+    --whiteblue: #f4f6f5; /*Cultured, A very pale blue, almost an off white*/
   
     /* change the values below to your chosen font(s) */
     --heading-font: "Helvetica", "Verdana", sans-serif;
     --paragraph-font: "Garamond", "Georgia", serif;
   }
-  html {
-    background-color: var(--color3);
+  header {
+    background-color: var(--skyblue);
   }
   body {
     max-width: 900px;
     margin: 0 auto;
-    background-color: #d4eaed;
+    background-color: var(--verylightblue);
     padding: 1em;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
-    color: #003952;
+    color: var(--navyblue);
   }
   header, footer {
     display: flex;
     padding: 1em;
     text-align: center;
-    color: #a2dae2;
-    background-color: #003952;
+    color: var(--skyblue);
+    background-color: var(--navyblue);
   }
   p {
     font-family: sans-serif;
-    color: #d4eaed;
+    color: var(--verylightblue);
     padding: 1rem;
+  }
+  div {
+    height: 200px;
+    border: 10px;
+  }
+  .color-1 {
+    height: 200px;
+    background-color: var(--red);
+  }
+  .color-2 {
+    height: 200px;
+    background-color: var(--verylightblue);
+  }
+  .color-3 {
+    height: 200px;
+    background-color: var(--skyblue);
+  }
+  .color-4 {
+    height: 200px;
+    background-color: var(--brown);
+  }
+  .color-5 {
+    height:200px;
+    background-color: var(--navyblue);
+  }
+  .color-6 {
+    height:200px;
+    background-color: var(--whiteblue);
   }
