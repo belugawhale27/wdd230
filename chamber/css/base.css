@@ -8,7 +8,7 @@
  --color6: #f4f6f5; Cultured, A very pale blue, almost an off white
 */
 
-header {
+header, footer {
     padding: 20px;
     display: flex;
     flex-direction: row;
