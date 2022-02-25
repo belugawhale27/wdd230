@@ -19,6 +19,7 @@
     margin: 0 auto;
     background-color: var(--verylightblue);
     padding: 1em;
+    width:80%;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
@@ -33,7 +34,7 @@
   }
   p {
     font-family: sans-serif;
-    color: var(--verylightblue);
+    color: var(--navyblue);
     padding: 1rem;
   }
   div {
@@ -63,4 +64,14 @@
   .color-6 {
     height:200px;
     background-color: var(--whiteblue);
+  }
+  img{
+    border-radius: 180px 180px 0px 0px;
+  }
+  .flexbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .date {
+    color:#a2dae2;
   }
