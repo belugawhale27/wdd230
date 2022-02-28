@@ -28,6 +28,7 @@ h3 {
     background-color: rgb(250, 212, 196);
     border-radius: 10px 10px 0px 0px;
     height: 2rem;
+    color: rgba(130, 134, 138, 0.158);
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     font-weight: 700;
 }
