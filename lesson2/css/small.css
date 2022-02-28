@@ -8,7 +8,6 @@ header {
 .grid-area {
     display: grid;
     grid-template-columns: 1fr;
-    color: rgba(130, 134, 138, 0.158);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     text-align: center;
@@ -28,7 +27,6 @@ h3 {
     background-color: rgb(250, 212, 196);
     border-radius: 10px 10px 0px 0px;
     height: 2rem;
-    color: rgba(130, 134, 138, 0.158);
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     font-weight: 700;
 }
@@ -39,9 +37,8 @@ h3 {
 p {
     padding: 30px;
     text-align: left;
-    color: rgb(62, 73, 83);
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
 }
 #date {
     background-color: lightskyblue;
