@@ -11,35 +11,70 @@
     --heading-font: "Helvetica", "Verdana", sans-serif;
     --paragraph-font: "Garamond", "Georgia", serif;
   }
-  header {
-    background-color: var(--skyblue);
-  }
   body {
+    background-color: var(--whiteblue);
+  }
+  main {
     max-width: 900px;
     margin: 0 auto;
     background-color: var(--verylightblue);
     padding: 1em;
     width:80%;
   }
+  h1, h2 {
+    text-decoration: underline;
+  }
+  header h2 {
+    text-decoration: none;
+  }
   h1, h2, h3, h4, h5, h6 {
-    font-family: sans-serif;
+    font-family: var(--heading-font);
     color: var(--navyblue);
   }
-  header, footer {
-    display: flex;
-    padding: 1em;
-    text-align: center;
-    color: var(--skyblue);
-    background-color: var(--navyblue);
-  }
   p {
-    font-family: sans-serif;
+    font-family: var(--paragraph-font);
     color: var(--navyblue);
     padding: 1rem;
   }
+  header h1 {
+    text-align: center;
+  }
+  header h2 {
+    background-color: var(--red);
+    color: var(--whiteblue);
+    text-align: center;
+    width: 85%;
+    padding: 10px;
+  } 
+  header a:link {
+    background-color: var(--skyblue);
+    color: var(--brown);
+  }
+  #date {
+    padding: 1em;
+    color: var(--whiteblue);
+    background-color: var(--brown);
+    width: 40%;
+    float: right;
+  }
+  a:link {
+    color: var(--whiteblue);
+  }
+  #domain {
+    color: var(--verylightblue);
+    background-color: var(--navyblue);
+    padding-bottom: 10px;
+    margin: auto;
+    
+  }
+  .domain {
+    background-color: var(--navyblue);
+    padding: 20px 5px;
+    margin: 10px;
+  }
   div {
-    height: 200px;
     border: 10px;
+    margin: 15px;
   }
   .color-1 {
     height: 200px;
@@ -71,7 +106,4 @@
   .flexbox {
     display: flex;
     flex-direction: column;
-  }
-  .date {
-    color:#a2dae2;
   }
