@@ -53,13 +53,14 @@ p2{
 }
 .people {
   display: grid;
-  grid-template-columns: 0.25fr 1fr 0.5fr 1fr 0.25fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.25fr 1fr;
 }
 .jennifer {
-  grid-column: 2;
+  grid-row: 1;
 }
 .darren {
-  grid-column: 4;
+  grid-row: 3;
 }
 header h1 {
   color: var(--whiteblue);
@@ -153,8 +154,8 @@ div {
   font-size: 2.5rem;
 }
 .color-1, .color-2, .color-3, .color-4, .color-5, .color-6{
-  height: 120px;
-  font-size: 5rem;
+  height: 60px;
+  font-size: 2.5rem;
   text-align: center;
   padding-top: 20px;
 }
