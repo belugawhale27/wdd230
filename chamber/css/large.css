@@ -1,0 +1,62 @@
+@media only screen and (min-width: 64rem) {
+/*#end {
+
+}*/
+.maingrid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+p #lastmod {
+    grid-column: 2;
+    grid-row: 1;
+}
+nav ul li a {
+    padding: 0.5rem 1rem;
+} 
+nav button {
+    display: none;
+}
+nav ul#primaryNav {
+    display: flex;
+}   
+.event, .weather, .join, .news {
+    height: 150px;
+}  
+.event, .weather, .join {
+    grid-column: 1;
+}  
+.hero, .news {
+    grid-column: 2;
+}
+.spotlight {
+    grid-column: 3;
+    grid-row: 1/4;
+    height: 475px;
+}
+#spotlight1, #spotlight2, #spotlight3 {
+    height: 147px;
+}
+#spotlight3 {
+    display: block;
+    border: 1px solid var(--brown);
+    padding: 1px;
+    margin: 1px;
+}
+.event {
+    grid-row: 1;
+}
+.weather {
+    grid-row: 2;
+}
+.join {
+    grid-row: 3;
+}
+.hero {
+    grid-row: 1/3;
+    height: 315px;
+}
+.news {
+    grid-row: 3;
+}
+}
