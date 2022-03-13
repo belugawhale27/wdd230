@@ -1,9 +1,3 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
 :root{
    /*--color#: #hexcode; Color Name, descriptive color info*/
    --red: #d55555; /*Indian Red*/
@@ -17,11 +11,9 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
    align-content: stretch;
 }   
 header{
-   width: 90%;
    padding: 20px;
    display: flex;
    flex-direction: column;
@@ -37,6 +29,7 @@ header{
    text-align: center;
    background: var(--verypaleblue);
    padding: 10px;
+   margin: 10px;
 }
 nav button {
    margin: .2rem 2vw;
@@ -51,6 +44,8 @@ nav {
    text-align: right;
    font-size: 1.25rem;
    color: var(--navyblue);
+   padding: 10px;
+   margin: 10px;
 }
 
 nav ul {
@@ -63,7 +58,6 @@ nav ul {
 nav ul#primaryNav {
    padding: 10px;
    margin: 0px;
-   align-items: center;
 }   
 
 nav ul a {
@@ -164,7 +158,6 @@ nav ul.open {display: block;}
 }
 
 footer{
-   width: 90%;
    padding-top: 20px;
    background-color: var(--verylightblue);
    justify-content: space-around;

@@ -1,7 +1,4 @@
 @media only screen and (min-width: 64rem) {
-/*#end {
-
-}*/
 .maingrid{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -32,10 +29,10 @@ nav ul#primaryNav {
 .spotlight {
     grid-column: 3;
     grid-row: 1/4;
-    height: 475px;
+    height: 485px;
 }
 #spotlight1, #spotlight2, #spotlight3 {
-    height: 147px;
+    height: 150px;
 }
 #spotlight3 {
     display: block;
