@@ -192,3 +192,12 @@ footer.location-box {
 #end {
    display: block;
 }
+#banner p {
+   margin: 15px;
+   padding: 10px;
+   text-align: center;
+   font-size: 1.5rem;
+   color: var(--navyblue);
+   background: var(--skyblue);
+   height: 2.5rem;
+}
