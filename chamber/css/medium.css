@@ -20,7 +20,7 @@
     }
     main picture.photo {
         width: 600%;
-        border: 1px solid var(--red);
+        border: 1px solid var(--verypaleblue);
     }
     picture.photo img {
         width: 100%;

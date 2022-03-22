@@ -11,7 +11,7 @@ main {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 150px 150px 1fr;
     grid-gap: 10px;
-    border: 2px solid var(--red);
+    border: 2px solid var(--verypaleblue);
 }
 p #lastmod {
     grid-column: 2;
@@ -27,7 +27,7 @@ nav ul#primaryNav {
     display: flex;
 }   
 .event, .weather, .join, .news {
-    border: 2px solid var(--red);
+    border: 2px solid var(--verypaleblue);
 }  
 .event, .weather, .join, .news {
     grid-column: 1;
@@ -48,19 +48,20 @@ main picture.hero img {
     grid-column: 3;
     grid-row: 1/4;
     height: 485px;
+    border: none;
 }
 #spotlight1, #spotlight2, #spotlight3 {
     height: 150px;
 }
 #spotlight3 {
     display: block;
-    border: 1px solid var(--brown);
+    border: 1px solid var(--verypaleblue);
     padding: 1px;
     margin: 1px;
 }
 .event {
     grid-row: 1;
-    border: 2px solid var(--red);
+    border: 2px solid var(--verypaleblue);
 }
 .weather {
     margin-top: 10px;
