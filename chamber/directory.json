@@ -1,0 +1,73 @@
+`[{
+    "name": "Allen's Flowers",
+    "address": "123 Flower Lane",
+    "number": "123-3456",
+    "website": "allensflower.com"
+ },
+ {
+    "name": "Boomers",
+    "address": "234 Racing Way",
+    "number": "123-2342",
+    "website": "boomers.com"
+ },
+ {
+    "name": "El Cajon Credit Union",
+    "address": "123 Banking Way",
+    "number": "123-5555",
+    "website": "elcajoncu.com"
+ },
+ {
+    "name": "Al's Diner",
+    "address": "23 Washington Way",
+    "number": "123-2343",
+    "website": "alsdiner.com"
+ },
+ {
+    "name": "Miss Patty's Dance Studio",
+    "address": "234 Dancing Lane",
+    "number": "126-2342",
+    "website": "misspattydance.com"
+ },
+ {
+    "name": "Gypsy's Auto",
+    "address": "456 Drive Way",
+    "number": "567-2342",
+    "website": "gypsyauto.com"
+ },
+ {
+    "name": "Luke's",
+    "address": "234 Breakfast Way",
+    "number": "123-9999",
+    "website": "lukes.com"
+ },
+ {
+    "name": "Kirk's One and Done",
+    "address": "345 Marigold Lane",
+    "number": "123-7777",
+    "website": "kirkoneanddone.com"
+ },
+ {
+    "name": "Kim's Antiques",
+    "address": "234 Treasure Way",
+    "number": "167-9092",
+    "website": "kimsantiques.com"
+ },
+ {
+    "name": "Dragonfly Inn",
+    "address": "23 Main Street",
+    "number": "123-3434",
+    "website": "dragonflyinn.com"
+ },
+ {
+    "name": "Red and White Theater",
+    "address": "55 Screen Way",
+    "number": "593-2342",
+    "website": "redwhitetheater.com"
+ },
+ {
+    "name": "Babette's Gnome Shop",
+    "address": "23 Gnome Way",
+    "number": "123-0101",
+    "website": "babettesgnomes.com"
+ }
+]`

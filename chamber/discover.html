@@ -16,13 +16,14 @@
 <link rel="shortcut icon" href="favicon.ico">
 <script defer src="js/date.js"></script>  
 <script defer src="js/menu.js"></script>
+<script defer src="js/visits.js"></script>
 <title>El Cajon Chamber of Commerce</title>
 </head>
 <body>
 <header>
     <div class="header">
         <picture>
-            <img class="logo" src="images/chamberlogo2.png" alt="El Cajon Chamber of Commerce Logo" width="150">
+            <img class="logo" src="images/chamberlogo2web.webp" alt="El Cajon Chamber of Commerce Logo" width="150">
         </picture>
             <h1>El Cajon</h1>
                 <h2>Chamber of Commerce</h2>
@@ -36,9 +37,9 @@
                 <li><a href="join.html">Join</a></li>
                 <li><a href="contact.html">Contact</a></li>  
                 <li><a class= "social" href="http://www.facebook.com" target="_blank">
-                    <img src="images/fblogo.png" alt="Facebook Icon Link" width=40px></a></li>
+                    <img src="images/fblogo40web.webp" alt="Facebook Icon Link" width=40px></a></li>
                 <li><a class = "social" href="http://www.instagram.com" target="_blank">
-                    <img src="images/instagramlogo.png" alt="Instagram Icon Link" width=40px></a></li> 
+                    <img src="images/instagramlogo40web.webp" alt="Instagram Icon Link" width=40px></a></li> 
             </ul>
         <section class="topdate">
             <aside><em></em></aside>
@@ -47,12 +48,28 @@
     </div>
 </header>
 <main>
+    <picture class="discoverimg">
+        <img loading="lazy" src="images/anotherhike.jpg" alt="a hike trail" width=300><caption>A Hike Trial</caption>
+        <img loading="lazy" src="images/aflorist.jpg" alt="a local florist" width=250><caption>A Local Business</caption>
+        <img loading="lazy" src="images/atrail.jpg" alt="a hike trail" width=500><caption>A Hike Trail</caption>
+        <img loading="lazy" src="images/boomers.jpg" alt="Boomers, a local business" width=250><caption>A Local Attraction</caption>
+        <img loading="lazy" src="images/carshow.jpg" alt="A Car Show" width=400><caption>A Carshow</caption>
+        <img loading="lazy" src="images/themagnolia.jpg" alt="The Magnolia" width=900><caption>The Magnolia</caption>
+        <img loading="lazy" src="images/playtown.jpg" alt="A Play Town at the mall" width=250><caption>A Play Town</caption>
+        <img loading="lazy" src="images/moutainhike.jpg" alt="A Mountain Hike" width=400><caption>A Mountain Hike</caption>
+        <img loading="lazy" src="images/localconcert.jpg" alt="A Local Concert" width=400><caption>A Local Concert</caption>
+        <img loading="lazy" src="images/downtown.jpg" alt="Downtown El Cajon" width=300><caption>Downtown El Cajon</caption>
+    </picture>
+    <section>
+        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        <p>Current Page Load Timestamp: <span class="today"></span> in milliseconds.</p>
+    </section>
 </main>
 <footer>
     <section class="flex">
     <div class="logo-box">
         <picture>
-            <img  class="logo" src="images/chamberlogo2.png" alt="El Cajon Chamber of Commerce Logo" height=200>
+            <img  class="logo" src="images/chamberlogo2web.webp" alt="El Cajon Chamber of Commerce Logo" height=200>
         </picture>
     </div>
     <div class="contact-box">
@@ -70,7 +87,7 @@
     <section id="end">
     <div id="bottom">
         <p id="currentyear">&copy</p>
-        <p id="lastmod"></p>
+        <p class="lastmod"></p>
     </div>
     </section>
 </footer>

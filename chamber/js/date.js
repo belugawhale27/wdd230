@@ -3,7 +3,7 @@ const d = new Date();
 const year = d.getFullYear();
 
 document.querySelector('#currentyear').textContent += `${year} El Cajon Chamber of Commerce | Ashley Dahlberg | WDD230 Project`;
-document.querySelector('#lastmod').innerHTML += `Last Updated: ${document.lastModified}`;
+document.querySelector('.lastmod').innerHTML += `Last Updated: ${document.lastModified}`;
 
 // the current date in long form
 const datefield = document.querySelector("date");
@@ -20,10 +20,3 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
-const day = d.getDay();
-    
-if (day == 1 || day == 2) {
-    document.querySelector("#banner").style.display= "block";
-} else {
-    document.querySelector("#banner").style.display = "none";
-}
