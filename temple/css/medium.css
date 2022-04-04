@@ -1,0 +1,160 @@
+@media only screen and (min-width: 35rem) {
+    nav ul a {
+        border: none;
+    }
+    .maingrid {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 2.5fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .news, .join, .event, .weather {
+        height: 250px;
+        grid-column: 1/4;
+    }
+    .hero {
+        grid-column: 1/4;
+    }
+    .hero picture {
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+    main picture.photo {
+        width: 600%;
+        border: 1px solid var(--verypaleblue);
+    }
+    picture.photo img {
+        width: 100%;
+    }
+    .news {
+        grid-row: 2;
+    }
+    .spotlight {
+        grid-row: 3;
+        height: 250px;
+        grid-column: 1/4;
+    }
+    #spotlight1, #spotlight2 {
+        height: 110px;
+    }
+    .join {
+        display: block;
+        grid-row: 4;
+    }
+    .event {
+        grid-row: 5;
+        grid-column: 1/3;
+    }
+    .weather {
+        grid-row: 5;
+        grid-column: 3;
+    }
+    .flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .logo-box {
+        grid-column: 1;
+    }
+    .contact-box {
+        grid-column: 2;
+    }
+    .location-box {
+        grid-column: 4;
+        margin-right: 5px;
+        padding-right: 5px;
+    }
+    picture.discoverimg img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    }
+    picture.discoverimg:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+    }
+  /*This is me trying to figure out the drop down menu for the service page*/
+  nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: var(--brown);
+ }
+ 
+ nav {
+    background-color: var(--verylightblue);
+    text-align: right;
+    font-size: 1.25rem;
+    color: var(--navyblue);
+    padding: 10px;
+    margin: 10px;
+ }
+ 
+ nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+ }
+ 
+ nav ul#primaryNav {
+    padding: 10px;
+    margin: 0px;
+ }   
+ 
+ nav ul a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: var(--navyblue);
+    text-align:justify;
+    height: auto;
+ }
+ nav ul li.active a {  
+    height: 60%;
+    background-color: var(--brown);
+    color: var(--verypaleblue);
+    border-radius: 10px;
+ }
+ nav ul li a:hover {
+    height: 70%;
+    background-color: var(--skyblue);
+    color: var(--brown);
+    border-radius: 20px;
+ }
+ 
+
+ /*This is from the dropdown part of services in the smaller view*/
+.dropdown {
+    pointer-events:auto;
+    float: left;
+    display:block;
+}
+.dropdown-content {
+    pointer-events: auto;
+}
+.dropdown:hover .dropdown-content {
+    pointer-events: auto;
+    display: none;
+}
+.dropdown-content a {
+    display: block;
+}/*
+.dropdown-content a:hover {
+  
+}*/
+.services {
+    display: block;
+    border: 10px solid green;
+}
+.contact {
+    display: block;
+}
+.social {
+    display: block;
+}
+.content {
+    display: inline-block;
+}
+}
