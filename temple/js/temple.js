@@ -1,4 +1,4 @@
-const requestURL = 'https://belugawhale27.github.io/wdd230/temple/data/latter-day-prophets.json';
+const requestURL = 'https://belugawhale27.github.io/wdd230/temple/data/templedata.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -10,7 +10,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
      console.table(jsonObject);      // temporary checking for valid response and data parsing
-     const prophets = jsonObject['temples'];
+     const temples = jsonObject['temples'];
      temples.forEach(displayTemples);
   });
 
