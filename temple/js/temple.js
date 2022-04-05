@@ -1,4 +1,4 @@
-const requestURL = 'https://belugawhale27.github.io/temple/temple/data/latter-day-prophets.json';
+const requestURL = 'https://belugawhale27.github.io/wdd230/temple/data/latter-day-prophets.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)

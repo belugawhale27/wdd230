@@ -23,7 +23,7 @@
             "Saturday: 8:00 a.m., 8:30 a.m., 9:00 a.m.*, 9:30 a.m., 10:00 a.m., 10:30 a.m., 11:30 a.m., 12:30 p.m., 1:30 p.m., 2:30 p.m., 3:30 p.m., 5:00 p.m., 6:00 p.m., 6:30 p.m., 7:00 p.m.", 
             "*Session is in Spanish"],
         "templeclosureschedule": ["Saturday, 1 October 2022","Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24th December 2022", "Saturday, 31 December 2022"],
-        "image": "image url here"
+        "image": "https://belugawhale27.github.io/wdd230/temple/images/sandiegotemple.webp"
       },
       {
         "name": "San Diego California Temple",  
@@ -48,7 +48,7 @@
             "Saturday: 8:00 a.m., 8:30 a.m., 9:00 a.m.*, 9:30 a.m., 10:00 a.m., 10:30 a.m., 11:30 a.m., 12:30 p.m., 1:30 p.m., 2:30 p.m., 3:30 p.m., 5:00 p.m., 6:00 p.m., 6:30 p.m., 7:00 p.m.", 
             "*Session is in Spanish"],
         "templeclosureschedule": ["Saturday, 1 October 2022","Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24th December 2022", "Saturday, 31 December 2022"],
-        "image": "image url here"
+        "image": "https://belugawhale27.github.io/wdd230/temple/images/newportbeachtemple.webp"
        },
        {
         "name": "San Diego California Temple",  
@@ -73,7 +73,7 @@
             "Saturday: 8:00 a.m., 8:30 a.m., 9:00 a.m.*, 9:30 a.m., 10:00 a.m., 10:30 a.m., 11:30 a.m., 12:30 p.m., 1:30 p.m., 2:30 p.m., 3:30 p.m., 5:00 p.m., 6:00 p.m., 6:30 p.m., 7:00 p.m.", 
             "*Session is in Spanish"],
         "templeclosureschedule": ["Saturday, 1 October 2022","Wednesday, 23 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
-        "image": "image url here"
+        "image": "https://belugawhale27.github.io/wdd230/temple/images/losangelestemple.webp"
         },
         {
         "name": "Tijuana Mexico Temple",  
@@ -98,7 +98,7 @@
             "Saturday: 8:00 a.m., 8:30 a.m., 9:00 a.m.*, 9:30 a.m., 10:00 a.m., 10:30 a.m., 11:30 a.m., 12:30 p.m., 1:30 p.m., 2:30 p.m., 3:30 p.m., 5:00 p.m., 6:00 p.m., 6:30 p.m., 7:00 p.m.", 
             "*Session is in Spanish"],
         "templeclosureschedule": ["Monday, 27 June 2022 - Monday, 11 July 2022", "Saturday, 1 October 2022", "Monday, 28 November 2022 - Monday, 12 December 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
-        "image": "image url here"
+        "image": "https://belugawhale27.github.io/wdd230/temple/images/tijuanatemple.webp"
         }
     ]
   }
