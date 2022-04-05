@@ -31,3 +31,9 @@
 Also figure out how to make it not transparent when the services menu options dropdown when hovering
 #ThisIsSoExciting!!!!!
 */
+
+/*This is for the temple page*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
