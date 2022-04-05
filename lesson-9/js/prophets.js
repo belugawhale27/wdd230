@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'https://belugawhale27.github.io/wdd230/lesson-9/data/prophets.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
