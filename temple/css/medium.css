@@ -50,7 +50,7 @@
     }
     .flex {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .logo-box {
         grid-column: 1;
@@ -59,7 +59,7 @@
         grid-column: 2;
     }
     .location-box {
-        grid-column: 4;
+        grid-column: 3;
         margin-right: 5px;
         padding-right: 5px;
     }

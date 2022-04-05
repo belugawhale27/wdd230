@@ -1,46 +1,45 @@
-:root{
-    /*--color#: #hexcode; Color Name, descriptive color info*/
-    --red: #d55555; /*Indian Red*/
-    --verylightblue: #d4eaed; /*Light Cyan, a very light blue*/
-    --skyblue: #a2dae2; /*Blizzard Blue, a sky blue*/ 
-    --brown:#785338; /*Coffee, Brown*/
-    --navyblue: #003952; /*Indigo Dye, a navy blue*/
-    --verypaleblue: #f4f6f5; /*Cultured, A very pale blue, almost an off white*/
-    }
+ /*default for pages unless modified*/
+ 
  body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: stretch;
  }   
+
  header{
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: right;
     justify-items: right;
-    border: 50px var(--verypaleblue);
-    background-color: var(--verylightblue);
+    border: 50px var(--green);
+    background-color: var(--blue);
     justify-content: space-around;
     align-content: stretch;
+    color: var(--green);
  }
  
  .topdate {
     text-align: center;
-    background: var(--verypaleblue);
+    background: var(--blue);
+    color: var(--green);
     padding: 10px;
     margin: 10px;
  }
+
+ /*Navigation*/
+ 
  nav button {
     margin: .2rem 2vw;
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: var(--brown);
+    color: var(--green);
  }
  
  nav {
-    background-color: var(--verylightblue);
+    background-color: var(--blue);
     text-align: right;
     font-size: 1.25rem;
     color: var(--navyblue);
@@ -64,20 +63,21 @@
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: var(--navyblue);
+    color: var(--blue);
     text-align:justify;
     height: auto;
+    color: var(--green);
  }
  nav ul li.active a {  
     height: 60%;
-    background-color: var(--brown);
-    color: var(--verypaleblue);
+    background-color: var(--timberwolf);
+    color: var(--green);
     border-radius: 10px;
  }
  nav ul li a:hover {
     height: 70%;
-    background-color: var(--skyblue);
-    color: var(--brown);
+    background-color: var(--yellow);
+    color: var(--green);
     border-radius: 20px;
  }
  
@@ -90,11 +90,23 @@
  #hamburgerBtn.open span:nth-child(1) {display:none;}
  #hamburgerBtn.open span:nth-child(2) {display:block;}
  
+ /*Logo*/
  .logo {
      border-radius: 20px;
      float: left;
      margin: 5px;
      padding: 10px; 
+ }
+ /*Home page*/ 
+ 
+ #banner p {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--green);
+    background: var(--yellow);
+    height: 2.5rem;
  }
  .maingrid {
     padding: 20px;
@@ -105,7 +117,7 @@
  }
  .event, .weather, .news, .spotlight, .join {
     height: 150px;
-    border-color: var(--verypaleblue);
+    border-color: var(--blue);
     border-style: groove;
     /*grid-column: 1/4;*/
  }
@@ -113,7 +125,7 @@
     grid-row:1;
  }
   main picture.photo {
-    border: 1px dashed var(--brown);
+    border: 1px dashed var(--green);
  }
  main picture.photo img {
     width: 400px;
@@ -143,14 +155,14 @@
     list-style: none;
  }
  #spotlight1 {
-    border: 1px solid var(--verypaleblue);
+    border: 1px solid var(--blue);
     padding: 1px;
     margin: 1px;
     height: 100px;
  }
  
  #spotlight2 {
-    border: 1px solid var(--verypaleblue);
+    border: 1px solid var(--blue);
     padding: 1px;
     margin: 1px;
     height: 100px;
@@ -170,18 +182,37 @@
     list-style: none;
     align-content: center;
  }
+ main.join {
+    margin: 2rem;
+    margin-left: 12rem;
+    padding: 2rem;
+    border: 3px solid var(--green);
+    height: 750px;
+    width: 60%;
+ }
  
+ /*Footer and Bottom Information*/
+
  footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 10px solid black;
     padding-top: 20px;
-    background-color: var(--verylightblue);
+    background-color: var(--blue);
     justify-content: space-around;
  }
+ 
  .logo-box {
+    border: 10px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
  }
- footer.location-box {
+ .contact-box {
+    border: 10px solid black;
+ }
+ .location-box {
+    border: 10px solid black;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -194,7 +225,7 @@
     text-align: center;
  }
  #bottom {
-    color: var(--brown);
+    color: var(--green);
     font-weight: 400;
     margin: 20px;
     padding: 20px;
@@ -206,15 +237,8 @@
  #end {
     display: block;
  }
- #banner p {
-    margin: 15px;
-    padding: 10px;
-    text-align: center;
-    font-size: 1.5rem;
-    color: var(--navyblue);
-    background: var(--skyblue);
-    height: 2.5rem;
- }
+/*Temple Page*/
+
  picture.discoverimg {
     display: flex;
     flex-direction: column;
@@ -224,30 +248,23 @@
      font-weight: bolder;
      font-size: larger;
  }
- main.join {
-    margin: 2rem;
-    margin-left: 12rem;
-    padding: 2rem;
-    border: 3px solid var(--brown);
-    height: 750px;
-    width: 60%;
- }
+
  .today {
-     color: var(--red);
+     color: var(--green);
  }
  .form {
     display: flex;
      align-items: center;
      justify-content: center;
-    background-color: var(--navyblue);
+    background-color: var(--timberwolf);
  }
  div.form {
      margin: 0;
      padding: 0.5rem;
-    color: var(--verypaleblue);
+    color: var(--blue);
  }
  .hidden {
-    color: var(--navyblue);
+    color: var(--green);
     margin-bottom: 1rem;
  }
  input,
@@ -266,13 +283,13 @@
  input.form:required,
  select.form:required,
  textarea.form:required {
-     border-color: var(--red);
+     border-color: var(--green);
  }
  
  input.form:valid,
  select.form:valid,
  textarea.form:valid {
-     border-color: var(--skyblue);
+     border-color: var(--blue);
  }
  .membership {
      display: flex;
@@ -281,7 +298,7 @@
  }
  
  .membership > label {
-     color: var(--navyblue);
+     color: var(--green);
      width: 100px;
      height: 30px;
      font-size: 1.2rem;
@@ -290,11 +307,11 @@
      display: flex;
      align-items: center;
     justify-content: center;
-     caret-color: var(--red);
+     caret-color: var(--yellow);
  }
  
  .membership > label:hover {
-     color: var(--red);
+     color: var(--green);
  }
  .description {
     height: 3rem;
@@ -311,10 +328,10 @@
  main.contact {
     margin: 2rem;
     margin-left: 6rem;
-     border: 1px solid var(--verylightblue);
+     border: 1px solid var(--blue);
      padding: 0.75rem;
      width: 80%;
-     background-color: var(--verypaleblue);
+     background-color: var(--blue);
  }
  
  form.contact {
@@ -345,7 +362,7 @@
  input.contact:focus,
  textarea.contact:focus,
  select.contact:focus {
-     background-color: var(--skyblue);
+     background-color: var(--blue);
  }
  
  button.contact {
@@ -356,6 +373,6 @@
     align-items: center;
     justify-content: center;
     height: 300px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: var(--navyblue);
+    font-family: var(--text);
+    color: var(--greenblue);
  }
