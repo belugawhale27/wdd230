@@ -1,4 +1,11 @@
 :root{
+    /*--color#: #hexcode; Color Name, descriptive color info*/
+   --red: black; /*Black, not actually part of my color palette*/
+   --verylightblue: #DAD6D2; /*Timberwolf, a light grayish brown*/
+   --skyblue: #EBF6FE; /*Alice Blue, a light blue*/ 
+   --brown:#F4E3A4; /*Medium Champagne, A light yellow*/
+   --navyblue: #003952; /*Forest Green Traditional*/
+   --verypaleblue: white; /*White, Not acutally part of my palette*/
     font-family: 'IBM Plex Sans', sans-serif;
     font-family: 'Playfair Display', serif;
 }
