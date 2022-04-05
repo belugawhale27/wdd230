@@ -24,7 +24,7 @@ fetch(requestURL)
     h2.innerHTML = `${temple.name} <span class="highlight">`;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    picture.setAttribute('src', temple.imageurl);
+    picture.setAttribute('src', temple.image);
     picture.setAttribute('alt', `Picture of ${temple.name}`);
     picture.setAttribute('loading', 'lazy');
   
