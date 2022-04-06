@@ -39,6 +39,19 @@ Also figure out how to make it not transparent when the services menu options dr
 #ThisIsSoExciting!!!!!
 */
 
+/*Top of Page*/
+.topdate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.weatherinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 /*This is for the temple page*/
 .grid {
     display: grid;
