@@ -7,25 +7,25 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units
 
 fetch(apiURL)
     .then((response) => response.json())
-    .then((jsObject) => {
-        console.log(jsObject);
+    .then((x) => {
+        console.log(x);
 
-          //  const currentTemp = document.querySelector('#cc-temp');
-          //  const weathericon = document.querySelector('#cc-img');
+            const currentTemp = document.querySelector('#current-temp');
+            const weathericon = document.querySelector('#weathericon');
+            const caption = document.querySelector('figcaption');
+           
+            currentTemp.textContent = x.main.temp.toFixed(0);
+            let imgsrc = `https://openweathermap.org/img/w/${x.weather[0].icon}.png`;
+            let imgalt = x.weather[0].description;
+            imgalt = imgalt.split(' ').map(capitalize).join(' ');
 
-          //  currentTemp.textContent = jsObject.main.temp.toFixed(0);
-         //   let imgsrc = 'https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png';
-         //   let capimgalt = '';
-         //   for (let i = 0; i < imgalt.length; i++) {
-         //       if (chartAt(i) === 0) {
-         //           capimgalt += imgalt.charAt(i).toUpperCase();
-         //       } else {
 
-         //       }
-         //   }
-         //   imgalt = imgalt.charAt(0).toUpperCase() + imgalt.slice(1);
-
-         //   currentTemp.textContent = jsObject.main.temp.toFixed(0);
-         //   weathericon.setAttribute('src', imgsrc);
-        //    weathericon.setAttribute('alt', imgalt);
+            currentTemp.textContent = x.main.temp.toFixed(0);
+            weathericon.setAttribute('src', imgsrc);
+            weathericon.setAttribute('alt', imgalt);
+            caption.innerHTML = imgalt;
           });
+
+function capitalize(word) {
+    return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
+}
