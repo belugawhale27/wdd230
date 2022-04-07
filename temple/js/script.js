@@ -38,10 +38,10 @@ datefieldUK.innerHTML = `<em>${fulldateUK} ${formatAMPM(d)}</em>`;
 
 //This is for the banner
 
-const day = d.getDay();
+const month = d.getMonth();
     
-if (day == 1 || day == 2) {
-    document.querySelector("#banner").style.display= "block";
+if (month == 3 || month == 4) {
+    document.querySelector("#banner").style.display = "block";
 } else {
     document.querySelector("#banner").style.display = "none";
 }
@@ -50,11 +50,11 @@ if (day == 1 || day == 2) {
 //This is for the menu
 
 function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("open");
-    document.getElementById("hamburgerBtn").classList.toggle("open");
+    document.querySelector("#primaryNav").classList.toggle("open");
+    document.querySelector("#hamburgerBtn").classList.toggle("open");
 }
 
-const x = document.getElementById("hamburgerBtn")
+const x = document.querySelector("#hamburgerBtn")
 x.onclick = toggleMenu;
 
 

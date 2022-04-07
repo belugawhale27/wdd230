@@ -53,7 +53,7 @@ fetch(apiURL)
             currentTempLow.textContent = x.main.temp_min.toFixed(0);
             weathericon.setAttribute('src', imgsrc);
             weathericon.setAttribute('alt', imgalt);
-         //   caption.innerHTML = imgalt;
+          //  caption.innerHTML = imgalt;
           });
 
 function capitalize(word) {

@@ -41,6 +41,7 @@ Also figure out how to make it not transparent when the services menu options dr
 
 /*Top of Page*/
 .topdate {
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,3 +58,8 @@ Also figure out how to make it not transparent when the services menu options dr
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
+
+/*This is for the services page*/
+.services, .specialized-services, .amenities, .extras {
+    text-align: left;
+}

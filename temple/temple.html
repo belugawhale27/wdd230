@@ -17,8 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="templesuites.ico">
     <script defer src="js/script.js"></script>
-    <script defer src="js/temple.js"></script>
+    <script defer src="js/weather.js"></script>
     <script defer src="js/visits.js"></script>
+    <script defer src="js/temple.js"></script>
     <title>Temple Inn and Suites</title>
 </head>
 <body>
@@ -35,8 +36,12 @@
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="temple.html">Temple</a></li>
                 <li><a href="reservation.html">Reservation</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <div class="dropdown"><li><a href="services.html">Services</a></li>
+                    <div class="dropdown-content services">
+                        <a class="content" href="reception.html">Reception</a>
+                        <a class="content" href="missionary.html">Full-Time Missionary</a>
+                    </div></div>
+                <li class="contact"><a href="contact.html">Contact</a></li>
                 <li><a class= "social" href="http://www.facebook.com" target="_blank">
                     <img src="images/fblogo40web.webp" alt="Facebook Icon Link"></a></li>
                 <li><a class = "social" href="http://www.instagram.com" target="_blank">
@@ -44,7 +49,15 @@
                 </ul>
         <section class="topdate">
             <aside><em></em></aside>
-        </section>
+               <div class="weatherinfo"><figure>
+                    <img src="" alt="" id="weathericon" />
+                <figcaption></figcaption>
+            </figure>
+            <p>
+            San Diego:  <span class="temp-hi"></span>&deg;F / <span class="temp-low"></span>&deg;F</p>
+               </div>
+            </div>
+                 </section>
     </nav> 
     </div>
 </header>
@@ -57,30 +70,33 @@
     </section>
 </main>
 <footer>
-    <section class="flex">
-    <div class="logo-box">
-        <picture>
-            <img  class="logo" src="images/chamberlogo2web.webp" alt="El Cajon Chamber of Commerce Logo" height=200>
-        </picture>
-    </div>
-    <div class="contact-box">
-        <h3>El Cajon Chamber of Commerce</h3>
-        <p>1234 Main St</p>
-        <p>El Cajon, CA 92021</p>
-        <p>chambers@elcajoncc.org</p>
-        <p>(858) 211-1234</p>
-    </div>
-    <div class="location-box">
-        <a href="https://goo.gl/maps/MUKFP74mPiWQeDdk8" alt="Map of El Cajon">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107269.37459666321!2d-116.9489346583621!3d32.84080439439587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d95f39e20553a9%3A0xc24c26cde01f35b4!2sEl%20Cajon%2C%20CA%2092021!5e0!3m2!1sen!2sus!4v1643520354892!5m2!1sen!2sus" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe></a></p>
-    </div>
+    <section class="foot">
+        <section class="flex">
+        <div class="logo-box">
+            <picture>
+                <img  class="logo" src="images/templesuites.webp" alt="Temple Inn and Suites Logo" height=200>
+            </picture>
+        </div>
+        <div class="contact-box">
+            <h3>Temple Inn and Suites</h3>
+            <p>4840 Montgomery Ln #320</p>
+            <p>Bethesda, MD 20814</p>
+            <p>templeinnandsuites.org</p>
+            <p>(858) 211-1234</p>
+            <p><a href="contact.html">Contact Us Here</a></p>
+        </div>
+        <div class="location-box">
+            <a href="#" alt="Map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4164743557694!2d-77.09981228255616!3d38.982990300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c8fab2e17%3A0xee511a20c1d4bf68!2s4840%20Montgomery%20Ln%20%23320%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1649189200373!5m2!1sen!2sus" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a></p>
+        </div>
+        </section>
+        <section id="end">
+        <div id="bottom">
+            <p id="currentyear">&copy</p>
+            <p class="lastmod"></p>
+        </div>
+        </section>
     </section>
-    <section id="end">
-    <div id="bottom">
-        <p id="currentyear">&copy</p>
-        <p class="lastmod"></p>
-    </div>
-    </section>
-</footer>
-</body>
-</html>
+    </footer>
+    </body>
+    </html>

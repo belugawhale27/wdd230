@@ -1,4 +1,8 @@
 @media only screen and (min-width: 35rem) {
+    header, footer {
+        min-width: 500px;
+        width: 100%;
+    }
     nav ul a {
         border: none;
     }

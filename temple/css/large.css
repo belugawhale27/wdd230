@@ -1,4 +1,7 @@
 @media only screen and (min-width: 64rem) {
+    header {
+        max-width: 1200px;
+    }
     main {
         display: flex;
         flex-direction: column;
@@ -11,12 +14,14 @@
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 150px 150px 1fr;
         grid-gap: 10px;
-        border: 2px solid var(--verypaleblue);
+        border: 2px solid var(--black);
     }
+    /*footer info*/
     p #lastmod {
         grid-column: 2;
         grid-row: 1;
     }
+    /*nav*/
     nav ul li a {
         padding: 0.5rem 1rem;
     } 
@@ -26,15 +31,35 @@
     nav ul#primaryNav {
         display: flex;
     }   
-    .event, .weather, .join, .news {
-        border: 2px solid var(--verypaleblue);
-    }  
+    .event {
+        border: 10px solid purple;
+    } 
+    .weather {
+        border: 10px solid green;
+    }
+    .join {
+        border: 10px solid blue;
+    } 
+    .news {
+        border: 10px solid orange;
+        }  
     .event, .weather, .join, .news {
         grid-column: 1;
         justify-items: right;
         height: 155px;
     }  
-    .hero, .news {
+    .hero {
+        background-color: var(--yellow);
+        color: var(--green);
+        font-weight: 1000;
+        box-shadow: 10px var(--green);
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        grid-column: 2;
+        height: 50%;
+    } 
+    .news {
         grid-column: 2;
         height: 100%;
     }
@@ -45,6 +70,7 @@
         width: 100%;
     }
     .spotlight {
+        border: 10px solid lime;
         grid-column: 3;
         grid-row: 1/4;
         height: 485px;
@@ -55,13 +81,13 @@
     }
     #spotlight3 {
         display: block;
-        border: 1px solid var(--verypaleblue);
+        border: 10px solid var(--black);
         padding: 1px;
         margin: 1px;
     }
     .event {
         grid-row: 1;
-        border: 2px solid var(--verypaleblue);
+        border: 10px solid var(--gray);
     }
     .weather {
         margin-top: 10px;
@@ -76,6 +102,10 @@
     .news {
         height: 155px;
         grid-row: 3;
+    }
+    footer {
+        max-width: 1200px;
+        width: 100%;
     }
     }
     

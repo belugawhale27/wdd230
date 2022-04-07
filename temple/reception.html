@@ -11,11 +11,13 @@
     <link href="css/base.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="templesuites.ico">
     <script defer src="js/script.js"></script>
+    <script defer src="js/weather.js"></script>
     <title>Temple Inn and Suites</title>
 </head>
 <body>
@@ -32,8 +34,12 @@
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="temple.html">Temple</a></li>
                 <li><a href="reservation.html">Reservation</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <div class="dropdown"><li><a href="services.html">Services</a></li>
+                    <div class="dropdown-content services">
+                        <a class="content" href="reception.html">Reception</a>
+                        <a class="content" href="missionary.html">Full-Time Missionary</a>
+                    </div></div>
+                <li class="contact"><a href="contact.html">Contact</a></li>
                 <li><a class= "social" href="http://www.facebook.com" target="_blank">
                     <img src="images/fblogo40web.webp" alt="Facebook Icon Link"></a></li>
                 <li><a class = "social" href="http://www.instagram.com" target="_blank">
@@ -41,7 +47,15 @@
                 </ul>
         <section class="topdate">
             <aside><em></em></aside>
-        </section>
+               <div class="weatherinfo"><figure>
+                    <img src="" alt="" id="weathericon" />
+                <figcaption></figcaption>
+            </figure>
+            <p>
+            San Diego:  <span class="temp-hi"></span>&deg;F / <span class="temp-low"></span>&deg;F</p>
+               </div>
+            </div>
+                 </section>
     </nav> 
     </div>
 </header>
