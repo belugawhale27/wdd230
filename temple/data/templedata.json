@@ -26,6 +26,31 @@
         "image": "https://belugawhale27.github.io/wdd230/temple/images/sandiegotemple1.webp"
       },
       {
+        "name": "Tijuana Mexico Temple",  
+        "streetlocation": "Paseo Del Rio 6832, Esquina Campestre Oriente, Col 3 RA Etapa Rio Tijuana, 22226 Tijuana",
+        "citylocation": "Tijuana",
+        "statelocation": null,
+        "countrylocation": "Baja California, Mexico",
+        "telephone": "52-664-969-2690",
+        "email": "tijuanatemple@churchofchrist.org",
+        "services": ["Distribution center nearby"],
+        "history": "This temple was announced on April 7th, 1984. The groundbreaking took place on February 27th, 1988. The dedication took place on April 25th, 1993.",
+        "ordinancesbyapptonly": ["Proxy Baptisms", "Sealings"],
+        "initiatoryschedule": ["Tuesday: 9:00 a.m., 9:30 a.m., 10:00 a.m., 10:30 a.m., 6:30 p.m., 7:00 p.m.", 
+            "Wednesday: Every half hour from 9:00 a.m. - 11:30 a.m.", 
+            "Thursday: Every half hour from 6:00 p.m. - 8:30 p.m.", 
+            "Friday: Every half hour from 9:00 a.m. - 8:30 p.m.", 
+            "Saturday: Every half hour from 8:00 a.m. - 8:00 p.m."],
+        "sessionschedule": ["Tuesday: 5:30 a.m., 6:30 a.m., 8:00 a.m., 8:30 a.m., 9:00 a.m., 9:30 a.m., 10:00 a.m., 10:30 a.m., 6:00 p.m., 6:30 p.m., 7:00 p.m., 7:30 p.m.", 
+            "Wednesday: 9:00 a.m., 9:30 a.m., 10:00 a.m., 10:30 a.m., 11:00 a.m.", 
+            "Thursday: 6:00 p.m., 6:30 p.m., 7:00 p.m., 7:30 p.m.", 
+            "Friday: 9:00 a.m., 9:30 a.m., 10:00 a.m., 10:30 a.m., 11:00 a.m., 12:30 p.m., 1:30 p.m., 2:30 p.m., 3:30 p.m., 5:00 p.m., 5:30 p.m., 6:00 p.m., 6:30 p.m., 7:00 p.m., 7:30 p.m.*", 
+            "Saturday: 8:00 a.m., 8:30 a.m., 9:00 a.m.*, 9:30 a.m., 10:00 a.m., 10:30 a.m., 11:30 a.m., 12:30 p.m., 1:30 p.m., 2:30 p.m., 3:30 p.m., 5:00 p.m., 6:00 p.m., 6:30 p.m., 7:00 p.m.", 
+            "*Session is in Spanish"],
+        "templeclosureschedule": ["Monday, 27 June 2022 - Monday, 11 July 2022", "Saturday, 1 October 2022", "Monday, 28 November 2022 - Monday, 12 December 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
+        "image": "https://belugawhale27.github.io/wdd230/temple/images/tijuanatemple.webp"
+        },
+      {
         "name": "Newport Beach California Temple",  
         "streetlocation": "2300 Bonita Canyon Dr",
         "citylocation": "Newport Beach",
@@ -74,31 +99,6 @@
             "*Session is in Spanish"],
         "templeclosureschedule": ["Monday, 11 July 2022 - Monday, 1 August 2022", "Saturday, 1 October 2022","Tuesday, 22 November 2022 - Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
         "image": "https://belugawhale27.github.io/wdd230/temple/images/losangelestemple.webp"
-        },
-        {
-        "name": "Tijuana Mexico Temple",  
-        "streetlocation": "Paseo Del Rio 6832, Esquina Campestre Oriente, Col 3 RA Etapa Rio Tijuana, 22226 Tijuana",
-        "citylocation": "Tijuana",
-        "statelocation": null,
-        "countrylocation": "Baja California, Mexico",
-        "telephone": "52-664-969-2690",
-        "email": "tijuanatemple@churchofchrist.org",
-        "services": ["Distribution center nearby"],
-        "history": "This temple was announced on April 7th, 1984. The groundbreaking took place on February 27th, 1988. The dedication took place on April 25th, 1993.",
-        "ordinancesbyapptonly": ["Proxy Baptisms", "Sealings"],
-        "initiatoryschedule": ["Tuesday: 9:00 a.m., 9:30 a.m., 10:00 a.m., 10:30 a.m., 6:30 p.m., 7:00 p.m.", 
-            "Wednesday: Every half hour from 9:00 a.m. - 11:30 a.m.", 
-            "Thursday: Every half hour from 6:00 p.m. - 8:30 p.m.", 
-            "Friday: Every half hour from 9:00 a.m. - 8:30 p.m.", 
-            "Saturday: Every half hour from 8:00 a.m. - 8:00 p.m."],
-        "sessionschedule": ["Tuesday: 5:30 a.m., 6:30 a.m., 8:00 a.m., 8:30 a.m., 9:00 a.m., 9:30 a.m., 10:00 a.m., 10:30 a.m., 6:00 p.m., 6:30 p.m., 7:00 p.m., 7:30 p.m.", 
-            "Wednesday: 9:00 a.m., 9:30 a.m., 10:00 a.m., 10:30 a.m., 11:00 a.m.", 
-            "Thursday: 6:00 p.m., 6:30 p.m., 7:00 p.m., 7:30 p.m.", 
-            "Friday: 9:00 a.m., 9:30 a.m., 10:00 a.m., 10:30 a.m., 11:00 a.m., 12:30 p.m., 1:30 p.m., 2:30 p.m., 3:30 p.m., 5:00 p.m., 5:30 p.m., 6:00 p.m., 6:30 p.m., 7:00 p.m., 7:30 p.m.*", 
-            "Saturday: 8:00 a.m., 8:30 a.m., 9:00 a.m.*, 9:30 a.m., 10:00 a.m., 10:30 a.m., 11:30 a.m., 12:30 p.m., 1:30 p.m., 2:30 p.m., 3:30 p.m., 5:00 p.m., 6:00 p.m., 6:30 p.m., 7:00 p.m.", 
-            "*Session is in Spanish"],
-        "templeclosureschedule": ["Monday, 27 June 2022 - Monday, 11 July 2022", "Saturday, 1 October 2022", "Monday, 28 November 2022 - Monday, 12 December 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
-        "image": "https://belugawhale27.github.io/wdd230/temple/images/tijuanatemple.webp"
         }
     ]
   }
