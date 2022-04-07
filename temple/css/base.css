@@ -119,65 +119,11 @@
     justify-content: center;
     margin: 20px;
  }
- .event, .weather, .news, .spotlight, .join {
-    height: 150px;
-    border-color: var(--blue);
-    border-style: groove;
-    /*grid-column: 1/4;*/
- }
- .hero {
-    grid-row:1;
- }
   main picture.photo {
     border: 1px dashed var(--green);
  }
  main picture.photo img {
     width: 400px;
- }
- .hero p {
-    grid-column: 2;
-    grid-row: 2;
-    
- }
- .event {   grid-row: 2;}
- 
- .weather {   grid-row: 3; }
- .news {   grid-row: 4; }
- 
- .spotlight {
-    list-style: none;
-    grid-row: 5;
-    height: 230px;
- }
- .spotlights {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    padding: 5px;
- }
- #spotlight1, #spotlight2, #spotlight3 {
-    list-style: none;
- }
- #spotlight1 {
-    border: 1px solid var(--blue);
-    padding: 1px;
-    margin: 1px;
-    height: 100px;
- }
- 
- #spotlight2 {
-    border: 1px solid var(--blue);
-    padding: 1px;
-    margin: 1px;
-    height: 100px;
- }
- 
- #spotlight3 {
-    display: none;
- }
- 
- .join {
-    display: none;
  }
  .social{
     display: flex;
@@ -191,7 +137,7 @@
     margin-left: 12rem;
     padding: 2rem;
     border: 3px solid var(--green);
-    height: 750px;
+    height: 375px;
     width: 60%;
  }
  
@@ -239,10 +185,6 @@
  }
 /*Temple Page*/
 
- picture.discoverimg {
-    display: flex;
-    flex-direction: column;
- }
  .visits {
      color: var(--navyblue);
      font-weight: bolder;
@@ -290,28 +232,6 @@
  select.form:valid,
  textarea.form:valid {
      border-color: var(--blue);
- }
- .membership {
-     display: flex;
-     flex-direction: column;
-     justify-content: left;
- }
- 
- .membership > label {
-     color: var(--green);
-     width: 100px;
-     height: 30px;
-     font-size: 1.2rem;
-     margin-left: 5px;
-    margin-top: 1rem;
-     display: flex;
-     align-items: center;
-    justify-content: center;
-     caret-color: var(--yellow);
- }
- 
- .membership > label:hover {
-     color: var(--green);
  }
  .description {
     height: 3rem;

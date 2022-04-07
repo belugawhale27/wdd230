@@ -30,19 +30,7 @@
     }
     nav ul#primaryNav {
         display: flex;
-    }   
-    .event {
-        border: 10px solid purple;
-    } 
-    .weather {
-        border: 10px solid green;
     }
-    .join {
-        border: 10px solid blue;
-    } 
-    .news {
-        border: 10px solid orange;
-        }  
     .event, .weather, .join, .news {
         grid-column: 1;
         justify-items: right;
@@ -69,39 +57,8 @@
     main picture.hero img {
         width: 100%;
     }
-    .spotlight {
-        border: 10px solid lime;
+    .contact {
         grid-column: 3;
-        grid-row: 1/4;
-        height: 485px;
-        border: none;
-    }
-    #spotlight1, #spotlight2, #spotlight3 {
-        height: 150px;
-    }
-    #spotlight3 {
-        display: block;
-        border: 10px solid var(--black);
-        padding: 1px;
-        margin: 1px;
-    }
-    .event {
-        grid-row: 1;
-        border: 10px solid var(--gray);
-    }
-    .weather {
-        margin-top: 10px;
-        grid-row: 2;
-    }
-    .join {
-        grid-row: 3;
-    }
-    .hero {
-        grid-row: 1/2;
-    }
-    .news {
-        height: 155px;
-        grid-row: 3;
     }
     footer {
         max-width: 1200px;
